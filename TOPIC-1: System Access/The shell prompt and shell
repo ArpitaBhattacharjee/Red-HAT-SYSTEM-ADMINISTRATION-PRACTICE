@@ -1,1 +1,9 @@
-
+##In this I learned the basic of Shell prompt and Shell
+##Commands practised:
+-int 6 (restart linux computer)
+- ~# (root administrator prompt)
+- ps (which shell is running)
+- echo $SHELL (which shell is running)
+- csh (to check if c shell is running) ps (to check we run ps command after csh)
+- tcsh following ps (TENEX C Shell ,it remembers command history,completes commands or file name automatically,uses syntax similar to C programming language)
+- exit (logs out from previous shell and logs out from the session)
