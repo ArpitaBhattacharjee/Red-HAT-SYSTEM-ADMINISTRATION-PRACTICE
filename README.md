@@ -1,1 +1,2 @@
 # Red-HAT-SYSTEM-ADMINISTRATION-PRACTICE
+![Shell Prompt Practice](Capture%201.PNG)
