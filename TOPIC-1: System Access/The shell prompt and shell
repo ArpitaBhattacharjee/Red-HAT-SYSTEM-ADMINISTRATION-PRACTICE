@@ -25,3 +25,8 @@ for More we press space bar,Q button to get out of piping section
 history | more
 !21 (we can use the numbers from history list to repeat the command)
 history -c (to clear history)
+man cal (cal- calender;press Q to quite, manual - provides help with commands,detailed information with commands,available in almost all linux system,organizes commands into name,synopsis,description,options)
+In text mode we can open 7 terminals,workable 6,7th used for graphical mode.
+-ps (used to check recent terminal)
+ -ALT + f2/F3..... TO OPEN OTHER TERMINALS ; Ctrl+ Alt+f7 (for getting into graphical mode) ; ctrl+ D for logging out
+in Graphical 4 terminals
