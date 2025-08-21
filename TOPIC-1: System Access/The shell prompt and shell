@@ -7,3 +7,21 @@
 - csh (to check if c shell is running) ps (to check we run ps command after csh)
 - tcsh following ps (TENEX C Shell ,it remembers command history,completes commands or file name automatically,uses syntax similar to C programming language)
 - exit (logs out from previous shell and logs out from the session)
+-command -option arguments
+-cal -y (command,option)
+-cal 8 3050 (command,option,argument)
+-date
+-ls (listing command)
+-ls -l (long listing format)
+-cal ; cal 7 2026 ; date (issuing more than one command)
+Piping Command
+~]# cd / (~ tilt-home directory, / - root ,cd-change the directory,ls- files and directories in the current working directory)
+/]#ls (/-root partition)
+/]#cd /etc (/etc contains configuration files for the system and installed applications,cd/etc-cd used to change directories,in this case used to navigate th /etc directory)
+etc]#ls (ls command will display the list of files and directories inside /etc)
+#ls /etc | more  (|-piping sign,to check in column process)
+for More we press space bar,Q button to get out of piping section
+#history (previous all commands)
+history | more
+!21 (we can use the numbers from history list to repeat the command)
+history -c (to clear history)
