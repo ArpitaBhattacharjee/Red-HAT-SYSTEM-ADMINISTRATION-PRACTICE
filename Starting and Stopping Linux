@@ -1,1 +1,81 @@
+cd /
+ls
+Blue- folder ,White- file, Block/Red -running file, Paste clr- EXECUTION FILE, Green - execution file
+Explanation of each directory under /
+1. bin
+Stands for binaries.
+Contains essential command programs needed by all users (e.g., ls, cp, mv, cat, date).
+These are available even when only the minimal system is running.
+2. boot
+Contains files needed for the boot process.
+Includes the Linux kernel (vmlinuz), initial RAM disk (initrd or initramfs), and bootloader (like GRUB) files.
+3. dev
+Contains device files.
+In Linux, everything is treated as a file (hard drives, USB, printers).
+Examples: /dev/sda (first hard disk), /dev/null, /dev/tty.
+4. etc
+Stands for editable text configuration.
+Contains system configuration files (e.g., /etc/passwd, /etc/hosts, /etc/fstab).
+Almost all software/system settings live here.
+5. home
+Contains personal directories for each user.
+Example: /home/john or /home/halima.
+Each user keeps their documents, downloads, configs, etc. here.
+6. lib and lib64
+Store shared libraries (similar to DLL files in Windows) required by programs in /bin and /sbin.
+lib64 is for 64-bit libraries on 64-bit systems.
+Example: files like libc.so.
+7. media
+Temporary mount point for removable media like CDs, DVDs, USB drives.
+Example: when you plug in a USB, it may mount under /media/username/USB.
+8. mnt
+Stands for mount.
+Traditionally used by admins to manually mount file systems (e.g., another hard disk or network share).
+Still used today for temporary mounts.
+9. opt
+Stands for optional.
+Used for installing optional or third-party software packages.
+Example: /opt/google/chrome when Chrome is installed manually.
+10. proc
+Virtual filesystem that shows system and process information.
+Example: /proc/cpuinfo (CPU info), /proc/meminfo (RAM info), /proc/[pid] (running processes).
+It doesn’t exist on disk; it’s created by the kernel.
+11. root
+The home directory of the root (admin) user.
+Example: instead of /home/root, the superuser’s home is /root.
+12. run
+Temporary filesystem (in RAM) used since system boot.
+Stores runtime data like process IDs (PIDs) and sockets.
+Example: /run/systemd stores systemd runtime info.
+13. sbin
+Stands for system binaries.
+Contains essential administrative commands (e.g., shutdown, mount, fsck).
+Regular users don’t usually use these; mostly for root/admin.
+14. srv
+Stands for service.
+Used to store data for server services (like web server /srv/www, FTP server /srv/ftp).
+Not always used, depends on setup.
+15. sys
+Virtual filesystem that exposes information about devices and kernel.
+Used by system utilities to manage hardware.
+Example: /sys/class/net lists network interfaces.
+16. tmp
+Temporary files storage.
+Any user or program can store temporary data here.
+Usually auto-cleared on reboot.
+Example: when you open a document in an editor, it may create backup temp files here.
+17. usr
+Contains the majority of user applications and utilities.
+Inside:
+/usr/bin → most user commands.
+/usr/sbin → admin commands.
+/usr/lib → libraries.
+/usr/share → shared data (docs, icons, etc.).
+18. var
+Stands for variable data.
+Stores files that change often.
+Example:
+/var/log → system logs.
+/var/spool → print queues, mail queues.
 
+/var/cache → cached files
