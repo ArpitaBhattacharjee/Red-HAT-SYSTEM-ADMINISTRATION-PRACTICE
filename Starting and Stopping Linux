@@ -77,5 +77,9 @@ Stores files that change often.
 Example:
 /var/log → system logs.
 /var/spool → print queues, mail queues.
-
 /var/cache → cached files
+OS System initializing and booting
+1)LILO-older,security break issue
+2)Grub -moder,load multiple version of OS,high security
+c
+cd /etc/grub.d/-command that takes into grub.d directory,where configuration files of GRUB are stored 
