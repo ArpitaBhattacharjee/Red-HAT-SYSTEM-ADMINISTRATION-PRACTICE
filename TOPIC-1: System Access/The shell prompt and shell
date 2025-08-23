@@ -29,4 +29,7 @@ man cal (cal- calender;press Q to quite, manual - provides help with commands,de
 In text mode we can open 7 terminals,workable 6,7th used for graphical mode.
 -ps (used to check recent terminal)
  -ALT + f2/F3..... TO OPEN OTHER TERMINALS ; Ctrl+ Alt+f7 (for getting into graphical mode) ; ctrl+ D for logging out
-in Graphical 4 terminals
+In Graphical 4 termINALS
+For changing text to graphical,to run default in text ,its done in graphical first,it is done for security
+#systematic set-default multi-user.target (Graphical to default text)
+#systematic set-default graphical.target (text to default graphical)
